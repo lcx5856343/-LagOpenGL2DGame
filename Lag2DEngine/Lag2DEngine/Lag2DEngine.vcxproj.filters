@@ -13,10 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Delegate">
+      <UniqueIdentifier>{052e54e6-a9e8-4886-9744-3a97d8762bd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{282c51e6-a064-4a5d-93aa-5ff8122c2c14}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\Delegate\AppDelegate.cpp">
+      <Filter>Delegate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Manager\Director.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Utils\LagGL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\LagLogHelp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Delegate\AppDelegate.h">
+      <Filter>Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\LagHead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Manager\Director.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Utils\LagStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
